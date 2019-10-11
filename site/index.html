@@ -1,44 +1,88 @@
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<title>Education & Coding</title>
-	</head>
-	<body>
-		<div class="page-wrapper">
 
-			<!--     HEADER    -->
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Education & Coding</title>
+    <link rel="stylesheet" href="stylesEC.css">
+  </head>
+<body>
+<div class="page-wrapper">
 
-			<header id="header">
-				<div class="logo">
-					<img  id="header-img" src="https://i.postimg.cc/8cntm3Pd/logo-2.png" alt="Education&Coding logo">
-				</div>
-				<nav id="nav-bar">
-					<ul>
-						<li><a class="nav-link" href="#organization">Ποιοί είμαστε</a></li>
-						<li><a class="nav-link" href="#organization">Παιδιά και προγραμματισμός</a></li>
-						<li><a class="nav-link" href="#organization">Εγγραφείτε</a></li>
-					</ul>
-				</nav>    
-			</header>
+  <!--     HEADER    -->
 
-			<!--        FORM           -->
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://i.postimg.cc/8cntm3Pd/logo-2.png" alt="Education&Coding logo">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#inspiration">Εμπνευστείτε</a></li>
+        <li><a class="nav-link" href="#sites">Site εκμάθησης προγραμματισμού</a></li>
+        <li><a class="nav-link" href="#subscription">Εγγραφείτε</a></li>
+      </ul>
+    </nav>
+  </header>
 
-			<section id="subscription">
-				<h2 class="about">Μορφώστε τα παιδιά σας μέσα από τον προγραμματισμό</h2>
-				<form id="form" action="https://www.freecodecamp.com/email-submit " method="get "><input class="input-field" type="text" name="fname " placeholder="Όνομα"><input class="input-field" type="text " name="lname" placeholder="Επώνυμο"><input class="input-field" type="email" name="email" id="email" placeholder="e-mail " required><br>
-					<input id="submit" type="submit" value="ΓΝΩΡΙΣΤΕ ΜΑΣ" />
-				</form>
-			</section>
+  <!--        FORM           -->
 
+  <section id="subscription">
+    <h2 class="about">Μορφώστε τα παιδιά σας μέσα από τον προγραμματισμό</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit " method="get "><input class="input-field" type="text" name="fname " placeholder="Όνομα"><input class="input-field" type="text " name="lname" placeholder="Επώνυμο"><input class="input-field" type="email" name="email" id="email" placeholder="e-mail " required><br>
+      <input id="submit" type="submit" value="ΓΝΩΡΙΣΤΕ ΜΑΣ" />
+    </form>
+  </section>
 
-			<!--     MAIN BODY    -->
+  <!--     MAIN BODY    -->
 
-			<div class="container">
+  <div class="quote">
+    <blockquote id="quote" cite="https://www.britannica.com/biography/Thomas-Fuller">
+      <p>“ Όλα τα πράγματα είναι δύσκολα πρωτού γίνουν εύκολα.”</p>
+      <cite>-- Τόμας Φούλερ - Άγγλος μελετητής, ιεροκήρυκας και συγγραφέας</cite>
+    </blockquote>
+  </div>
 
+  <div class="container">
 
+    <!--        VIDEO           -->
+    <section id="inspiration" class="inspiration">
+      <div class="video">
+        <iframe id="video" width="420 " height="315 " src=https://www.youtube.com/embed/dU1xS07N-FA>
+</iframe>
+      </div>
+      <p id="intro">Μία από τις μεγαλύτερες ευλογίες στην οποία μπορεί να ελπίζει κανείς είναι να βλέπει το παιδί του να ευημερεί. Σε μια απαιτητική εποχή όπως αυτή που διανύουμε, ένα άτομο που δεν γνωρίζει τον τρόπο να χρησιμοποιήσει υπολογιστές θεωρείται αναλφάβητο.
+        Γιατί όχι λοιπόν να μην κάνουμε ένα βήμα παραπέρα και να διδάξουμετα παιδιά μας πώς να προγραμματίζουν τα ίδια υπολογιστές.</p>
+    </section>
 
-			</div>  
-		</div>
+    <!--  SITES WHERE KIDS CAN PROGRAMM  -->
+    <section class="coding-sites" id="sites">
+      <h3 id="title">Ιστοσελίδες για παιδιά που θέλουν να μάθουν προγραμματισμό.</h3>
+      <ol>
+        <li><a href="https://scratch.mit.edu/" target="_blank">Scratch</a></li>
+        <li><a href="https://code.org/" target="_blank">Code.org</a></li>
+        <li class="coding-site"><a href="https://codecombat.com/" target="_blank">Codecombat</a></li>
+        <li class="coding-site"><a href="https://www.codemoji.com/" target="_blank">Codemoji</a></li>
+        <li class="coding-site"><a href="http://www.codemonster.io/" target="_blank">Codemonster</a></li>
+        <li class="coding-site"><a href="https://glitch.com/" target="_blank">
+Glitch</a></li>
+        <li class="coding-site"><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
+        <li class="coding-site"><a href="https://blockly-games.appspot.com/" target="_blank">Blockly</a></li>
+        <li class="coding-site"><a href="https://www.kodable.com//" target="_blank">Kodable</a></li>
+        <li class="coding-site"><a href="https://www.codeavengers.com//" target="_blank">Code Avengers</a></li>
+        <li class="coding-site"><a href="https://lightbot.com/" target="_blank">LightBot</a></li>
+        <li class="coding-site"><a href="https://www.vidcode.com//" target="_blank">Vidcode</a></li>
+        <li class="coding-site"><a href="https://codakid.com/" target="_blank">Codakid</a></li>
+        <li class="coding-site"><a href="https://www.codemonkey.com/" target="_blank">Codemonkey</a></li>
+        <li class="coding-site"><a href="http://www.stencyl.com/" target="_blank">Stencyl</a></li>
 
-	</body>
-	</html>
+      </ol>
+    </section>
+    
+    <!--   FOOTER -->
+  <footer id="footer">
+    Copyright 2019, Education and Coding
+  </footer>
+
+  </div>
+</div>
+</body>
+  </html>
